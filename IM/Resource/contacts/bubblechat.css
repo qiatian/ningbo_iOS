@@ -1,0 +1,20 @@
+
+*{
+    padding:0px;
+    margin:0xp;
+}
+p{
+    display:block;
+    font-size:14px;
+    
+}
+.container{
+    line-height:18px;
+}
+.tag{
+    text-decoration:none;
+    color:#576b95;
+    font-size:14px;
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+}

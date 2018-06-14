@@ -1,0 +1,46 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "c55a00a0-d1bf-4b54-886a-b3cda92636bb++7081",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "c55a00a0-d1bf-4b54-886a-b3cda92636bb++3071" : {
+
+    },
+    "c55a00a0-d1bf-4b54-886a-b3cda92636bb++6076" : {
+
+    },
+    "c55a00a0-d1bf-4b54-886a-b3cda92636bb++7081" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "c55a00a0-d1bf-4b54-886a-b3cda92636bb++3071" : 0,
+    "c55a00a0-d1bf-4b54-886a-b3cda92636bb++6076" : 0,
+    "c55a00a0-d1bf-4b54-886a-b3cda92636bb++7081" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7135E9D3-16B7-4DF0-893B-9E3D0562C111",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "c55a00a0-d1bf-4b54-886a-b3cda92636bb++3071" : "iOS_branch_new\/",
+    "c55a00a0-d1bf-4b54-886a-b3cda92636bb++6076" : "iOS_branch_YTXSDK_new\/",
+    "c55a00a0-d1bf-4b54-886a-b3cda92636bb++7081" : "iOS__HK_%20Delivery_Use\/"
+
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "IM",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ningbo_iOS\/IM.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/221.226.179.180:5111\/repos\/im",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "c55a00a0-d1bf-4b54-886a-b3cda92636bb++3071"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/221.226.179.180:5111\/repos\/im",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "c55a00a0-d1bf-4b54-886a-b3cda92636bb++6076"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/221.226.179.180:5111\/repos\/im",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "c55a00a0-d1bf-4b54-886a-b3cda92636bb++7081"
+    }
+  ]
+}

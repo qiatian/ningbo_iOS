@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="TableViewCell_TaskFinish">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="600" height="49"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eBn-6K-Xng">
+                        <rect key="frame" x="66" y="6" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ims-mU-Bpu">
+                        <rect key="frame" x="66" y="35" width="526" height="2"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="2" id="1Jv-4b-Ne1"/>
+                        </constraints>
+                    </progressView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default_head.png" translatesAutoresizingMaskIntoConstraints="NO" id="Qf6-To-5Zc">
+                        <rect key="frame" x="8" y="5" width="40" height="40"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Qf6-To-5Zc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="7Jb-4F-axF"/>
+                    <constraint firstItem="eBn-6K-Xng" firstAttribute="leading" secondItem="Qf6-To-5Zc" secondAttribute="trailing" constant="18" id="Do7-2A-lsW"/>
+                    <constraint firstItem="eBn-6K-Xng" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-2" id="Kzx-Wg-n1r"/>
+                    <constraint firstItem="Qf6-To-5Zc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="QWd-LS-U6A"/>
+                    <constraint firstItem="ims-mU-Bpu" firstAttribute="top" secondItem="eBn-6K-Xng" secondAttribute="bottom" constant="8" symbolic="YES" id="W3s-Yd-Ep7"/>
+                    <constraint firstAttribute="bottom" secondItem="Qf6-To-5Zc" secondAttribute="bottom" constant="4" id="Xvo-N8-B0S"/>
+                    <constraint firstItem="eBn-6K-Xng" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="66" id="baH-lo-bt2"/>
+                    <constraint firstItem="ims-mU-Bpu" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="hts-8F-G85"/>
+                    <constraint firstItem="eBn-6K-Xng" firstAttribute="leading" secondItem="ims-mU-Bpu" secondAttribute="leading" id="yxo-9S-dhh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="headImg" destination="Qf6-To-5Zc" id="a9U-B2-pVs"/>
+                <outlet property="nameLabel" destination="eBn-6K-Xng" id="iiW-j2-OUp"/>
+                <outlet property="progressView" destination="ims-mU-Bpu" id="SDz-8H-OSe"/>
+            </connections>
+            <point key="canvasLocation" x="182" y="269"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="default_head.png" width="45" height="45"/>
+    </resources>
+</document>

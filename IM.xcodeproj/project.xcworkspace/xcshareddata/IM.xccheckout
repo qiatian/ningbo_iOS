@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7135E9D3-16B7-4DF0-893B-9E3D0562C111</string>
+	<key>IDESourceControlProjectName</key>
+	<string>IM</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>c55a00a0-d1bf-4b54-886a-b3cda92636bb++3071</key>
+		<string>http://221.226.179.180:5111/repos/im/branches/iOS_branch/iOS_branch_first</string>
+		<key>c55a00a0-d1bf-4b54-886a-b3cda92636bb++6076</key>
+		<string>http://221.226.179.180:5111/repos/im</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ningbo_iOS/IM.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>c55a00a0-d1bf-4b54-886a-b3cda92636bb++3071</key>
+		<string>../../../../iOS_branch_new</string>
+		<key>c55a00a0-d1bf-4b54-886a-b3cda92636bb++6076</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>c55a00a0-d1bf-4b54-886a-b3cda92636bb++3071</key>
+		<string>http://221.226.179.180:5111/repos/im</string>
+	</dict>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>c55a00a0-d1bf-4b54-886a-b3cda92636bb++6076</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>c55a00a0-d1bf-4b54-886a-b3cda92636bb++3071</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS_branch_new</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>c55a00a0-d1bf-4b54-886a-b3cda92636bb++6076</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS_branch_YTXSDK_new</string>
+		</dict>
+	</array>
+</dict>
+</plist>
